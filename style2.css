@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container {
+    padding: 10px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.container .profile {
+    text-align: center;
+    color: white;
+}
+.container .pic img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.contact p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contact p:hover {
+    color: #00BFFF;
+}
+.whyme_header, .skills_heading {
+    margin-top: 70px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    align-items: center;
+}
+.feature_text {
+    color: white;
+    padding: 0 50px;
+}
+.feature_pic img {
+    width: 100%;
+}
+.skills {
+    text-align: center;
+    margin-top: 70px;
+}
+.skills h1, .skills h2 {
+    color: white;
+}
+.skill_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.skill_grid ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skill_grid li {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skill_grid li:hover {
+    color: grey;
+}
